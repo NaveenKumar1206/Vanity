@@ -50,50 +50,6 @@ namespace VanityNumber.Controllers
             result.Value = queue.ToArray();
             return result;
         }
-
-
-
-
-        ///// <summary>
-        ///// +1202-555-0271
-        ///// </summary>
-        ///// <remarks></remarks>
-        ///// <param name="phoneNo"></param>
-        ///// <returns></returns>
-        //[Route("api/VanityPhoneNumber")]
-        //[HttpGet]
-        //public JsonResult VanityPhoneNumber(string phoneNo)
-        //{
-        //    JsonResult result = new JsonResult("");
-
-        //    Queue<string> queue = new Queue<string>();
-        //    if (phoneNo.Length > 0)
-        //    {
-        //        for (int i = 0; i < phoneNo.Length; i++)
-        //        {
-
-        //            string temp = "";
-        //            queue.Enqueue("");
-
-        //            string readphone = Helper.MapFirstAlphabet(phoneNo.Substring(i, 1));
-
-        //            while (queue.Peek().Length<i+1)
-        //            {
-        //                temp = queue.Dequeue();
-
-        //                foreach (char c in readphone.ToCharArray())
-        //                {
-        //                    queue.Enqueue(temp + c);
-        //                }
-        //            }
-        //        }
-
-        //        result.Value = queue.ToArray();
-        //    }
-
-
-
-        //    return result;
-        //}
+              
     }
 }
